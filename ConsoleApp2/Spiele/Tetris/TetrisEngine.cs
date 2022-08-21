@@ -79,6 +79,7 @@
             _version = 0;
             _posLeft = 5;
             _posTop = 0;
+            _stein.Clear();
             _stein = Isteine.GetRandom();
 
             do

@@ -76,7 +76,7 @@
         }
         public List<bool[,]> GetRandom()
         {
-            return randList[rand.Next(0, randList.Count)];
+            return randList[rand.Next(0, randList.Capacity)];
         }
     }
 
